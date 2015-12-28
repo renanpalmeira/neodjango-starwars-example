@@ -1,1 +1,9 @@
 *.pyc
+*.rdb
+*.sqlite3
+*.sqlite
+*.sql
+*.log
+*.mo
+*.db
+*.pid
