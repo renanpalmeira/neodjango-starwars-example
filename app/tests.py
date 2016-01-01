@@ -4,10 +4,18 @@ from django.test import TestCase
 
 from app.nodes import Jedi, Planet
 
-class PlanetNodeTestCase(TestCase):
-
+class NodeTestCase(TestCase):
+	"""
+	A long time ago in a galaxy far, far away....
+	"""
 	def test_node_filter(self):
 		result = Jedi.objects.filter(name='Rey')
+		self.assertEqual(len(result), 1)
+
+	def test_node_filter_propery(self):
+		result = Jedi.objects.filter(name='Rey')
+		for item in result:
+			self.assertEqual(type(item.name), unicode)
 		self.assertEqual(len(result), 1)
 
 	def test_node_all(self):
