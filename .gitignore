@@ -7,3 +7,9 @@
 *.mo
 *.db
 *.pid
+bin/
+include/
+lib/
+kombu/
+local/
+share/
