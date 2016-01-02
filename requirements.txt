@@ -1,7 +1,13 @@
 Django==1.8.2
+amqp==1.4.8
+anyjson==0.3.3
+billiard==3.3.0.22
+celery==3.1.19
+kombu==3.0.32
 neo4jrestclient==2.1.1
 -e git+https://github.com/RenanPalmeira/neodjango/#egg=neodjango-master
 nose==1.3.7
+pytz==2015.7
 requests==2.9.1
 six==1.10.0
 wsgiref==0.1.2
