@@ -40,3 +40,7 @@ class NodeTestCase(TestCase):
 		jakku = Planet.objects.get(name='Jakku')
 		self.assertEqual(rey.name, 'Rey')
 		self.assertEqual(jakku.terrain, 'deserts')
+
+	def test_node_signal(self):
+		rey = Jedi()
+		return True
