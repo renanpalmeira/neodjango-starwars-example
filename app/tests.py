@@ -44,3 +44,8 @@ class NodeTestCase(TestCase):
 	def test_node_signal(self):
 		rey = Jedi()
 		return True
+
+	def test_node_save(self):
+		rey = Jedi(name='Rey')
+		rey.save()
+		return True
