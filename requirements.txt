@@ -3,6 +3,7 @@ amqp==1.4.8
 anyjson==0.3.3
 billiard==3.3.0.22
 celery==3.1.19
+djangorestframework==3.3.2
 kombu==3.0.32
 neo4jrestclient==2.1.1
 -e git+https://github.com/RenanPalmeira/neodjango/#egg=neodjango-master
