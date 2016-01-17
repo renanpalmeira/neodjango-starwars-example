@@ -21,4 +21,3 @@ install: "pip install -r requirements.txt"
 script: 
   - "celery -A starwars worker --loglevel=info -D"
   - "python manage.py test"
-  - "ps auxww | grep 'celery worker' | awk '{print $2}' | xargs kill -9"
